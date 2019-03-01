@@ -1,0 +1,144 @@
+// Specific CSS for your home-page
+.header-container {
+  position: relative;
+  top: -70vh;
+  text-align: center;
+}
+
+.cards-landing-page {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 1200px;
+    margin-bottom: 250px;
+    height: 650px;
+    padding-top:150px;
+}
+
+#homepage_claim{
+  padding-top: 0 !important;
+}
+
+.rounded-circle{
+  padding: 20px;
+}
+
+.line{
+  width: 95%;
+  display: flex;
+  align-items: center;
+}
+
+.line-bottom{
+  margin-bottom: 80px;
+}
+
+.line-top{
+  margin-top: 80px;
+}
+
+.line-top1{
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+
+.featurette{
+  margin: 0 30px 150px 30px;
+
+}
+
+.featurette-heading{
+    margin-top: 10rem;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    font-weight: normal;
+}
+
+.gradiant{
+  position: relative;
+  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.2));
+  height: 100vh;
+  width: 100vw;
+  }
+
+.video{
+  margin-top: -360px;
+  z-index: -1;
+}
+
+.header-container p{
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  letter-spacing: 12px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.header-container h1{
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: 16px;
+  margin-bottom: 42px;
+}
+
+.text-center{
+  position: relative;
+  top: -55px;
+  margin-bottom: 100px;
+}
+
+.banner-2 p{
+  letter-spacing: 2px;
+  line-height: 1.8;
+}
+
+.card-landing p{
+  margin: 20px 30px;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+}
+
+.btn-card{
+  background-color: #99C6CA;
+  border-color: transparent;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #FF3470;
+    border-color: #FF3470;
+}
+
+
+// Search Bar Home
+
+.new-search{
+  margin-left: 385px;
+  margin-top: 60px;
+  width: 500px;
+}
+
+.search{
+  border: 3px solid #B2E8EE !important;
+  background-color: transparent;
+  border-radius: 30px;
+  height: 50px;
+}
+
+.search:focus {
+    color: white;
+    background-color: transparent !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.text-muted{
+  color: #B2E8EE !important;
+}
+
+.search::placeholder{
+  color: white !important;
+}

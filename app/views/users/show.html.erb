@@ -1,0 +1,37 @@
+<div class="container container-show">
+  <div class="card-details">
+    <div class="teacher-details">
+      <div class="teacher-photo-name">
+        <div class="profile-photo">
+          <%= cl_image_tag(@user.photo, width: 220, height: 150) %>
+        </div>
+        <div class="name-users-show">
+          <h1><%= @user.skill %></h1>
+          <h3><%= @user.first_name %></h3>
+        </div>
+        <div class="price">
+          <h3>£<%= (20..50).to_a.sample %></h3><h2>an hour</h2>
+        </div>
+      </div>
+      <div class="price-story">
+        <div class="story">
+          <h3>About me</h3>
+          <hr class="line-show">
+          <p><%= @user.biography %></p>
+        </div>
+      </div>
+    </div>
+       <div class="map-user"
+      id="map"
+      data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
+      data-markers="<%= @markers.to_json %>"
+      ></div>
+  </div>
+  <div class="buttons-users-show">
+    <%= link_to "Back to teacher search", users_path, class: "btn btn-all-teachers btn-user" %>
+    <% if params[:id].to_i != current_user.id %>
+      <%= link_to "Request this teacher", new_user_booking_path(@user), class: "btn btn-secondary btn-card btn-booking-teacher" %>
+    <% end %>
+  </div>
+
+</div>

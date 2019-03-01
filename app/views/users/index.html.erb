@@ -1,0 +1,26 @@
+<div class="main-container-index-teachers">
+
+  <div class="cards-all-teachers">
+  <% @teachers.each do |user| %>
+
+    <div class="card-teacher">
+      <%= cl_image_tag(user.photo, width: 400, height: 300) %>
+      <div class="card-teacher-infos">
+        <div>
+          <h2><%= link_to user.skill, user_path(user) %></h2>
+          <p><%= user.first_name %></p>
+        </div>
+        <h2 class="card-teacher-pricing">£ <%= (20..50).to_a.sample %>/hr</h2>
+      </div>
+    </div>
+  <% end %>
+  </div>
+
+  <div
+  id="map"
+  data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
+  data-markers="<%= @markers.to_json %>"
+  ></div>
+
+
+</div>

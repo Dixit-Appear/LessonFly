@@ -1,0 +1,97 @@
+.container-show {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  padding: 20px 0;
+}
+.card-details {
+  display: flex;
+  justify-content: space-between;
+}
+.teacher-details {
+  display: flex;
+  flex-grow: 1;
+  background-color: white;
+  border-radius: 8px;
+  margin-right: 10px;
+  flex-direction: column;
+  width: 50%;
+}
+.teacher-details:hover{
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.price-story {
+  display: flex;
+  padding-top: 20px;
+}
+.story {
+  margin: 0 20px 20px 20px;
+  flex-grow: 1;
+  min-height: 240px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.story h3{
+  text-align: center;
+}
+.line-show{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  h3 {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+  h2 {
+    font-size: 20px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+}
+.teacher-photo-name {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0 0 0;
+}
+.name-users-show  {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  justify-content: center;
+  h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+  h3 {
+    font-weight: lighter;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+}
+.name-skills {
+  padding-top: 10px;
+}
+div.map-user.mapboxgl-map {
+  border-radius: 8px;
+  height: 460px !important;
+  width: 30%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.btn-user{
+    color: #fff !important;
+    background-color: #797979;
+    border-color: #797979;
+}
+.btn-user:hover{
+    color: #fff !important;
+    background-color: #5E5E5E !important;
+    border-color: #5E5E5E !important;
+}
