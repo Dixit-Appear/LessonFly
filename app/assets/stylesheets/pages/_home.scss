@@ -9,7 +9,6 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
     width: 1200px;
     margin-bottom: 200px;
     height: 650px;
@@ -45,6 +44,7 @@
 
 .featurette{
   margin: 0 30px 150px 30px;
+  color: #D6D6D6;
 
 }
 
@@ -53,6 +53,7 @@
     line-height: 1;
     letter-spacing: -.05rem;
     font-weight: normal;
+    color: #D6D6D6;
 }
 
 .gradiant{
@@ -68,19 +69,20 @@
 }
 
 .header-container p{
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  letter-spacing: 12px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 30px;
+  color: #FFFFFF;
+  opacity: .8;
+  letter-spacing: 13px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
 
 .header-container h1{
+  font-family: 'Fjalla One' !important;
   color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 56px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  font-size: 64px;
   font-weight: bold;
-  letter-spacing: 16px;
+  letter-spacing: 12px;
   margin-bottom: 42px;
 }
 
@@ -88,6 +90,7 @@
   position: relative;
   top: -55px;
   margin-bottom: 100px;
+  color: #D6D6D6;
 }
 
 .banner-2 p{
@@ -99,6 +102,12 @@
   margin: 20px 30px;
   line-height: 1.5;
   letter-spacing: 1.3px;
+}
+
+.card-landing:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #0A0A0A;
 }
 
 .btn-card{
@@ -140,5 +149,9 @@
 }
 
 .search::placeholder{
-  color: white !important;
+  font-size: 18px;
+  color: #FFFFFF !important;
+  opacity: .7;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
