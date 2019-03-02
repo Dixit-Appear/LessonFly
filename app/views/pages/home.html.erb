@@ -8,14 +8,20 @@
   <div class="header-container">
 
     <h1><b>LessonFly</b></h1>
-    <p>Share your knowledge, Learn from others!</p>
+    <p>
+      <label class='placeholder'>
+        <span id="banner-typed-text"></span>
+      </label>
+    </p>
     <div class="new-search">
+
       <%= form_tag users_path, method: :get, class: "form search-skills" do %>
         <%= text_field_tag :query,
           params["#{:query}?size=5"],
           class: "form-control search",
-          placeholder: "Search Skills"
+          placeholder: "Search"
         %>
+
       <% end %>
     </div>
   </div>

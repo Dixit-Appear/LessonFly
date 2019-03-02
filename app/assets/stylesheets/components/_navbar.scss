@@ -1,11 +1,11 @@
 .navbar-lewagon-grey{
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  background-color: white !important;
+  background-color: transparent;
 }
 
 .navbar-lewagon {
   // justify-content: space-between;
-  background-color: white;
+  background-color: transparent;
   transition: 0.5s background-color ease;
   position: fixed;
   top:0;
@@ -54,11 +54,18 @@
   border-radius: 10px;
   font-weight: bold;
   transition: opacity 0.3s ease;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: 'Fjalla One';
+}
+
+.btn-ghost :hover{
+  opacity: 0.8;
+
 }
 
 .logo{
-  font-size: 30px;
+  font-family: 'Fjalla One';
+  font-size: 40px;
   color: #B2E8EE !important;
   font-weight: bold;
   font-variant: small-caps;
