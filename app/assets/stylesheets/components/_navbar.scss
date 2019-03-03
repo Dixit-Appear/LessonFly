@@ -5,7 +5,7 @@
 
 .navbar-lewagon {
   // justify-content: space-between;
-  background-color: transparent;
+  background-color: black;
   transition: 0.5s background-color ease;
   position: fixed;
   top:0;
@@ -79,4 +79,34 @@
     position: absolute;
     width: 100%;
     top: 69px;
+}
+
+.alert-warning {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    top: 69px;
+}
+
+.alert-info{
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    top: 69px;
+}
+
+.alert-dismissible{
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    top: 85px;
 }
