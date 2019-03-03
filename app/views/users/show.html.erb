@@ -3,7 +3,7 @@
     <div class="teacher-details">
       <div class="teacher-photo-name">
         <div class="profile-photo">
-          <%= cl_image_tag(@user.photo, width: 220, height: 150) %>
+          <%= cl_image_tag(@user.photo, width: 220, height: 150, :class => "profile-photo") %>
         </div>
         <div class="name-users-show">
           <h1><%= @user.skill %></h1>

@@ -3,12 +3,14 @@
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   max-height: 280px;
+  border-radius: 10px;
 }
 
 .card-teacher > img {
   height: 200px;
   width: 100%;
   object-fit: cover;
+  background-color: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
 }
 
 .card-teacher h2 {
@@ -38,6 +40,7 @@
   align-items: flex-end;
   position: relative;
 }
+
 
 .card-teacher-infos .card-teacher-user {
   position: absolute;
