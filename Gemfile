@@ -9,6 +9,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'rails', '5.2.2'
+gem 'elasticsearch', '~> 5.0', '>= 5.0.4'
 gem 'redis'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
