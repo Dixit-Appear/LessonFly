@@ -1,23 +1,15 @@
 // Import Google fonts
-@import url("https://fonts.googleapis.com/css?family=Abel|Fjalla+One");
-
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300,400,500');
 // Define fonts for body and headers
-@font-face {
-  font-family: 'Fjalla One', sans-serif;
+$body-font: 'Saira Extra Condensed', "sans-serif";
+$headers-font: 'Saira Extra Condensed', "sans-serif";
 
-  src: font-url('FontFile.eot');
-  src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-       font-url('FontFile.woff') format('woff'),
-       font-url('FontFile.ttf') format('truetype')
-}
-$my-font: 'Fjalla One', ;
-
-
-@font-face {
-  font-family: 'Abel', sans-serif;
-  src: font-url('FontFile.eot');
-  src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-       font-url('FontFile.woff') format('woff'),
-       font-url('FontFile.ttf') format('truetype')
-}
-$my-font-2: 'Abel';
+// To use a font file (.woff) uncomment following lines
+// @font-face {
+//   font-family: "Font Name";
+//   src: font-url('FontFile.eot');
+//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+//        font-url('FontFile.woff') format('woff'),
+//        font-url('FontFile.ttf') format('truetype')
+// }
+// $my-font: "Font Name";
