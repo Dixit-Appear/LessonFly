@@ -31,8 +31,8 @@ class UsersController < ApplicationController
   def markers
     @markers = @teachers.map do |teacher|
       {
-        lng: teacher.longitude,
-        lat: teacher.latitude
+        lat: teacher.latitude,
+        lng: teacher.longitude
       }
     end
   end
